@@ -33,7 +33,9 @@ public class MainActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                webView.loadUrl("http://www.corsomobile.it");
+                //http://www.corsomobile.it
+                //http://demoweb.labinfo.net/univ/index.html
+                webView.loadUrl("http://demoweb.labinfo.net/univ/index.html");
             }
         });
     }
