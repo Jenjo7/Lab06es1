@@ -29,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
         btnStart = (Button) findViewById(R.id.btn_start);
 
         initWebView();
+
+        btnStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                webView.loadUrl("http://www.corsomobile.it");
+            }
+        });
     }
 
     private void initWebView() {
